@@ -1,0 +1,42 @@
+
+
+
+<h2> The navigation list is wrapped in a <nav> element.</h2>
+<nav>
+<ul>
+<li> <a href="home/">Home</a></li>
+<li> <a href=" home/">Product<a/></li>
+<li> <a href=" home/">Service<a/></li>
+</ul>
+
+</nav>
+<h>The navigation list is wrapped in a <div> with the role of navigation assigned to it</h2>
+<div role="navigation">
+<ul>
+<li> <a href="home/">Home</a></li>
+<li> <a href=" home/">Product<a/></li>
+<li> <a href=" home/">Service<a/></li>
+</ul>
+</div>
+ <h2>The current page is made visually apparent in the table of contents via styles applied in a class</h2> 
+<ul>
+<li><a href="#">Fruits</a></li>
+<li><a href="#">Vegetables</a></li>
+<li><a href="#" class="current-page">Meats</a></li>
+<li><a href="#">Breads, Pasta, & Cereals</a></li>
+<li><a href="#">Soups & Canned Goods</a></li>
+<li><a href="#">Frozen Foods</a></li>
+<li><a href="#">Desserts</a></li>
+
+<li><a href="#">Snack Foods</a>
+</ul>
+ <h2>The current page has been designated with aria-current="page"</h2> 
+<ul>
+<li><a href="#">Fruits</a></li>
+<li><a href="#">Vegetables</a></li>
+<li><a href="#" aria-current="page">Meats</a></li>
+<li><a href="#">Breads, Pasta, & Cereals</a></li>
+<li><a href="#">Soups & Canned Goods</a></li>
+<li><a href="#">Frozen Foods</a></li>
+<li><a href="#">Desserts</a></li>
+<li><a href="#">Snack Foods</a>
